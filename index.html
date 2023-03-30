@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework3</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      html {
+        background-image: url("http://4.bp.blogspot.com/-TjgXkfvPzmo/UJJ4cty68HI/AAAAAAAABN8/GouNa6zJlWE/s1600/amazing_sky-wide.jpg");
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      nav {
+        position: absolute;
+        right: 250px;
+        color: white;
+        top: 10px;
+        font-size: 15px;
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+      }
+      .content {
+        color: white;
+        text-align: center;
+      }
+      .content h1 {
+        padding: 5px;
+      }
+      .content p {
+        font-size: 12px;
+        margin: 10px 0 5px;
+      }
+      .main-box {
+        width: 250px;
+        height: 8px;
+        background-color: #c7cfee;
+        margin: auto;
+        box-shadow: 1px 2px 5px 1px rgb(93, 91, 91);
+      }
+      .sub-box {
+        width: 190px;
+        height: 8px;
+        background-color: rgb(100, 189, 222);
+      }
+      .num {
+        width: 250px;
+        display: flex;
+        justify-content: space-between;
+        font-size: 10px;
+        margin: 0 auto;
+      }
+      .num span {
+        margin-top: 10px;
+      }
+      .notify {
+        box-shadow: 0 0 1px gray;
+        width: 80px;
+        background-color: rgb(100, 189, 222);
+        color: rgb(52, 51, 51);
+        font-size: 12px;
+        padding: 5px;
+        font-weight: bold;
+        margin: auto;
+      }
+      .icon {
+        color: white;
+      }
+      .icon i {
+        padding: 15px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <p>Home</p>
+    </nav>
+    <div class="container">
+      <div class="content">
+        <h1>UNDER</h1>
+        <h1>CONSTRUCTION</h1>
+        <p>SITE NEARLY READY</p>
+        <div class="main-box">
+          <div class="sub-box"></div>
+        </div>
+        <div class="num">
+          <span>0%</span>
+          <span>100%</span>
+        </div>
+        <br />
+        <div class="notify">Notify Me!</div>
+      </div>
+      <div class="icon">
+        <i class="fa fa-facebook" style="font-size: 24px"></i>
+        <i class="fa fa-twitter" style="font-size: 24px"></i>
+        <i class="fa fa-linkedin" style="font-size: 24px"></i>
+        <i class="fa fa-envelope" style="font-size: 24px"></i>
+      </div>
+    </div>
+  </body>
+</html>
